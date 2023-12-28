@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ dummy ]
   pull_request:
-    branches: [ master ]
+    branches: [ dummy ]
 env:
   DOCKER_HOST_IP: 127.0.0.1
 
